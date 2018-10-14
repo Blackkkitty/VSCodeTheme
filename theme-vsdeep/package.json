@@ -1,0 +1,19 @@
+{
+	"name": "theme-vsdeep",
+	"displayName": "VS Deep Themes",
+	"description": "Custom themes based on visual studio theme",
+	"categories": [ "Themes" ],
+	"version": "1.0.0",
+	"publisher": "blackkitty",
+	"engines": { "vscode": "*" },
+	"contributes": {
+		"themes": [
+			{
+				"id": "Visual Studio Deep",
+				"label": "Visual Studio Deep",
+				"uiTheme": "vs-dark",
+				"path": "./themes/vsdeep.json"
+			}
+		]
+	}
+}
