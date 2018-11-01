@@ -6,5 +6,4 @@ for /f %%t in ('dir /b /a D .\theme-*') do (
     set/p _=Copy - %%t - <NUL
     xcopy /e /y /q /i ".\%%t" "%aimdir%\%%t"
 )
-pause
 goto:eof
